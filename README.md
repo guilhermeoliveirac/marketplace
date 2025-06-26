@@ -1,7 +1,7 @@
 
 # MarketPlace
 
-Este é um sistema web simples para gerenciamento de consumo veiculares, com controle de gastos e visualização por gráficos. A aplicação é desenvolvida em **Node.js** e **Express**.
+Este é um sistema web simples para compras de mercado. A aplicação é desenvolvida em **Node.js** e **Express**.
 
 ## 🚀 Tecnologias utilizadas
 
@@ -19,7 +19,7 @@ Este é um sistema web simples para gerenciamento de consumo veiculares, com con
 ### Deploy
 
 ```bash
-- git clone https://github.com/guilhermeoliveirac/Flex
+- git clone https://github.com/guilhermeoliveirac/marketplace
 
 - cd Flex
 
@@ -29,5 +29,5 @@ Este é um sistema web simples para gerenciamento de consumo veiculares, com con
 
 ## Suporte
 
-Para suporte, mande um email para oliveira.guilherme262@gmail.com ou entre em nosso canal do Slack.
+Para suporte, mande um email para oliveira.guilherme262@gmail.com
 
