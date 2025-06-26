@@ -21,7 +21,7 @@ Este é um sistema web simples para compras de mercado. A aplicação é desenvo
 ```bash
 - git clone https://github.com/guilhermeoliveirac/marketplace
 
-- cd Flex
+- cd marketplace
 
 - docker-compose up --build -d
 ```
