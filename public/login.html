@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="login-container">
+    <form id="loginForm" class="login-box" novalidate>
+      <h2>Login</h2>
+      
+      <div class="input-group">
+        <label for="uname">Usuário</label>
+        <input 
+          type="text" 
+          id="uname" 
+          name="usuario" 
+          placeholder="Digite seu usuário" 
+          required 
+          autocomplete="username" 
+        />
+      </div>
+      
+      <div class="input-group">
+        <label for="psw">Senha</label>
+        <input 
+          type="password" 
+          id="psw" 
+          name="senha" 
+          placeholder="Digite sua senha" 
+          required 
+          autocomplete="current-password" 
+        />
+      </div>
+      
+      <button type="submit" class="login-button">Entrar</button>
+      
+      <div id="mensagemLogin" class="mensagem" aria-live="polite"></div>
+    </form>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
